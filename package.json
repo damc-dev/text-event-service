@@ -1,0 +1,30 @@
+{
+  "name": "text-event-service",
+  "version": "1.0.0",
+  "description": "Recieves http request when a new text is recieved",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damc-dev/text-event-service.git"
+  },
+  "keywords": [
+    "node",
+    "service",
+    "rest",
+    "soa",
+    "sms",
+    "mms"
+  ],
+  "author": "David McElligott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damc-dev/text-event-service/issues"
+  },
+  "homepage": "https://github.com/damc-dev/text-event-service",
+  "dependencies": {
+    "restify": "^2.8.3"
+  }
+}
